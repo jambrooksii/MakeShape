@@ -1,19 +1,19 @@
 package com.company;
 
 public class Square {
-    private int height;
-    private int length;
+    private double height;
+    private double length1;
 
-    public void setHeight(int squareHeight){
+    public void setHeight(double squareHeight){
         height = squareHeight;
     }
-    public int getHeight(){
+    public double getHeight(){
         return height;
     }
-    public void setLength(int squareLength){
-        length = squareLength;
+    public void setLength1(double squareLength){
+        length1 = squareLength;
     }
-    public int getLength(){
-        return length;
+    public double getLength1(){
+        return length1;
     }
 }
